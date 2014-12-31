@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60225301A51036400F64759 /* ClickatellRestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B602252F1A51036400F64759 /* ClickatellRestApi.swift */; };
+		B60E09651A5187F1003B89D2 /* water-bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B60E09641A5187F1003B89D2 /* water-bird.jpg */; };
+		B6ABE8AD1A50CE4300BDB1FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE8AC1A50CE4300BDB1FC /* AppDelegate.swift */; };
+		B6ABE8AF1A50CE4300BDB1FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE8AE1A50CE4300BDB1FC /* ViewController.swift */; };
+		B6ABE8B21A50CE4300BDB1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6ABE8B01A50CE4300BDB1FC /* Main.storyboard */; };
+		B6ABE8B41A50CE4300BDB1FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6ABE8B31A50CE4300BDB1FC /* Images.xcassets */; };
+		B6ABE8B71A50CE4300BDB1FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6ABE8B51A50CE4300BDB1FC /* LaunchScreen.xib */; };
+		B6ABE8C31A50CE4300BDB1FC /* ClickatellSingleApiCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE8C21A50CE4300BDB1FC /* ClickatellSingleApiCallTests.swift */; };
+		B6ABE8CD1A50D04600BDB1FC /* ClickatellHttpApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE8CC1A50D04600BDB1FC /* ClickatellHttpApi.swift */; };
+		B6ABE8CF1A50F41700BDB1FC /* AccountBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE8CE1A50F41700BDB1FC /* AccountBalanceViewController.swift */; };
+		B6ABE8D11A50F45300BDB1FC /* MessageSendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE8D01A50F45300BDB1FC /* MessageSendViewController.swift */; };
+		B6ABE8D31A50F48200BDB1FC /* MessageStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE8D21A50F48200BDB1FC /* MessageStatusViewController.swift */; };
+		B6ABE8D51A50F4AD00BDB1FC /* MessageStopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE8D41A50F4AD00BDB1FC /* MessageStopViewController.swift */; };
+		B6ABE8D71A50F4E000BDB1FC /* MessageChargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE8D61A50F4E000BDB1FC /* MessageChargeViewController.swift */; };
+		B6ABE8D91A50F50200BDB1FC /* CoverageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE8D81A50F50200BDB1FC /* CoverageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6ABE8BD1A50CE4300BDB1FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6ABE89F1A50CE4300BDB1FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6ABE8A61A50CE4300BDB1FC;
+			remoteInfo = ClickatellSingleApiCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B602252F1A51036400F64759 /* ClickatellRestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickatellRestApi.swift; sourceTree = "<group>"; };
+		B60E09641A5187F1003B89D2 /* water-bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "water-bird.jpg"; path = "../../../../../../Pictures/water-bird.jpg"; sourceTree = "<group>"; };
+		B6ABE8A71A50CE4300BDB1FC /* ClickatellSingleApiCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickatellSingleApiCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ABE8AB1A50CE4300BDB1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6ABE8AC1A50CE4300BDB1FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6ABE8AE1A50CE4300BDB1FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6ABE8B11A50CE4300BDB1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6ABE8B31A50CE4300BDB1FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6ABE8B61A50CE4300BDB1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B6ABE8BC1A50CE4300BDB1FC /* ClickatellSingleApiCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickatellSingleApiCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ABE8C11A50CE4300BDB1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6ABE8C21A50CE4300BDB1FC /* ClickatellSingleApiCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickatellSingleApiCallTests.swift; sourceTree = "<group>"; };
+		B6ABE8CC1A50D04600BDB1FC /* ClickatellHttpApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickatellHttpApi.swift; sourceTree = "<group>"; };
+		B6ABE8CE1A50F41700BDB1FC /* AccountBalanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBalanceViewController.swift; sourceTree = "<group>"; };
+		B6ABE8D01A50F45300BDB1FC /* MessageSendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageSendViewController.swift; sourceTree = "<group>"; };
+		B6ABE8D21A50F48200BDB1FC /* MessageStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageStatusViewController.swift; sourceTree = "<group>"; };
+		B6ABE8D41A50F4AD00BDB1FC /* MessageStopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageStopViewController.swift; sourceTree = "<group>"; };
+		B6ABE8D61A50F4E000BDB1FC /* MessageChargeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageChargeViewController.swift; sourceTree = "<group>"; };
+		B6ABE8D81A50F50200BDB1FC /* CoverageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6ABE8A41A50CE4300BDB1FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ABE8B91A50CE4300BDB1FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6ABE89E1A50CE4300BDB1FC = {
+			isa = PBXGroup;
+			children = (
+				B6ABE8A91A50CE4300BDB1FC /* ClickatellSingleApiCall */,
+				B6ABE8BF1A50CE4300BDB1FC /* ClickatellSingleApiCallTests */,
+				B6ABE8A81A50CE4300BDB1FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6ABE8A81A50CE4300BDB1FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABE8A71A50CE4300BDB1FC /* ClickatellSingleApiCall.app */,
+				B6ABE8BC1A50CE4300BDB1FC /* ClickatellSingleApiCallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6ABE8A91A50CE4300BDB1FC /* ClickatellSingleApiCall */ = {
+			isa = PBXGroup;
+			children = (
+				B60E09641A5187F1003B89D2 /* water-bird.jpg */,
+				B6ABE8AC1A50CE4300BDB1FC /* AppDelegate.swift */,
+				B6ABE8CC1A50D04600BDB1FC /* ClickatellHttpApi.swift */,
+				B602252F1A51036400F64759 /* ClickatellRestApi.swift */,
+				B6ABE8CE1A50F41700BDB1FC /* AccountBalanceViewController.swift */,
+				B6ABE8D01A50F45300BDB1FC /* MessageSendViewController.swift */,
+				B6ABE8D21A50F48200BDB1FC /* MessageStatusViewController.swift */,
+				B6ABE8D41A50F4AD00BDB1FC /* MessageStopViewController.swift */,
+				B6ABE8D61A50F4E000BDB1FC /* MessageChargeViewController.swift */,
+				B6ABE8D81A50F50200BDB1FC /* CoverageViewController.swift */,
+				B6ABE8AE1A50CE4300BDB1FC /* ViewController.swift */,
+				B6ABE8B01A50CE4300BDB1FC /* Main.storyboard */,
+				B6ABE8B31A50CE4300BDB1FC /* Images.xcassets */,
+				B6ABE8B51A50CE4300BDB1FC /* LaunchScreen.xib */,
+				B6ABE8AA1A50CE4300BDB1FC /* Supporting Files */,
+			);
+			path = ClickatellSingleApiCall;
+			sourceTree = "<group>";
+		};
+		B6ABE8AA1A50CE4300BDB1FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABE8AB1A50CE4300BDB1FC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6ABE8BF1A50CE4300BDB1FC /* ClickatellSingleApiCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABE8C21A50CE4300BDB1FC /* ClickatellSingleApiCallTests.swift */,
+				B6ABE8C01A50CE4300BDB1FC /* Supporting Files */,
+			);
+			path = ClickatellSingleApiCallTests;
+			sourceTree = "<group>";
+		};
+		B6ABE8C01A50CE4300BDB1FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABE8C11A50CE4300BDB1FC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6ABE8A61A50CE4300BDB1FC /* ClickatellSingleApiCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6ABE8C61A50CE4300BDB1FC /* Build configuration list for PBXNativeTarget "ClickatellSingleApiCall" */;
+			buildPhases = (
+				B6ABE8A31A50CE4300BDB1FC /* Sources */,
+				B6ABE8A41A50CE4300BDB1FC /* Frameworks */,
+				B6ABE8A51A50CE4300BDB1FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickatellSingleApiCall;
+			productName = ClickatellSingleApiCall;
+			productReference = B6ABE8A71A50CE4300BDB1FC /* ClickatellSingleApiCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6ABE8BB1A50CE4300BDB1FC /* ClickatellSingleApiCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6ABE8C91A50CE4300BDB1FC /* Build configuration list for PBXNativeTarget "ClickatellSingleApiCallTests" */;
+			buildPhases = (
+				B6ABE8B81A50CE4300BDB1FC /* Sources */,
+				B6ABE8B91A50CE4300BDB1FC /* Frameworks */,
+				B6ABE8BA1A50CE4300BDB1FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6ABE8BE1A50CE4300BDB1FC /* PBXTargetDependency */,
+			);
+			name = ClickatellSingleApiCallTests;
+			productName = ClickatellSingleApiCallTests;
+			productReference = B6ABE8BC1A50CE4300BDB1FC /* ClickatellSingleApiCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6ABE89F1A50CE4300BDB1FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Fred Lowe";
+				TargetAttributes = {
+					B6ABE8A61A50CE4300BDB1FC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B6ABE8BB1A50CE4300BDB1FC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B6ABE8A61A50CE4300BDB1FC;
+					};
+				};
+			};
+			buildConfigurationList = B6ABE8A21A50CE4300BDB1FC /* Build configuration list for PBXProject "ClickatellSingleApiCall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6ABE89E1A50CE4300BDB1FC;
+			productRefGroup = B6ABE8A81A50CE4300BDB1FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6ABE8A61A50CE4300BDB1FC /* ClickatellSingleApiCall */,
+				B6ABE8BB1A50CE4300BDB1FC /* ClickatellSingleApiCallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6ABE8A51A50CE4300BDB1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ABE8B21A50CE4300BDB1FC /* Main.storyboard in Resources */,
+				B6ABE8B71A50CE4300BDB1FC /* LaunchScreen.xib in Resources */,
+				B60E09651A5187F1003B89D2 /* water-bird.jpg in Resources */,
+				B6ABE8B41A50CE4300BDB1FC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ABE8BA1A50CE4300BDB1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6ABE8A31A50CE4300BDB1FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ABE8CD1A50D04600BDB1FC /* ClickatellHttpApi.swift in Sources */,
+				B6ABE8AF1A50CE4300BDB1FC /* ViewController.swift in Sources */,
+				B6ABE8D91A50F50200BDB1FC /* CoverageViewController.swift in Sources */,
+				B6ABE8D31A50F48200BDB1FC /* MessageStatusViewController.swift in Sources */,
+				B6ABE8AD1A50CE4300BDB1FC /* AppDelegate.swift in Sources */,
+				B6ABE8D11A50F45300BDB1FC /* MessageSendViewController.swift in Sources */,
+				B60225301A51036400F64759 /* ClickatellRestApi.swift in Sources */,
+				B6ABE8CF1A50F41700BDB1FC /* AccountBalanceViewController.swift in Sources */,
+				B6ABE8D71A50F4E000BDB1FC /* MessageChargeViewController.swift in Sources */,
+				B6ABE8D51A50F4AD00BDB1FC /* MessageStopViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ABE8B81A50CE4300BDB1FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ABE8C31A50CE4300BDB1FC /* ClickatellSingleApiCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6ABE8BE1A50CE4300BDB1FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6ABE8A61A50CE4300BDB1FC /* ClickatellSingleApiCall */;
+			targetProxy = B6ABE8BD1A50CE4300BDB1FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6ABE8B01A50CE4300BDB1FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6ABE8B11A50CE4300BDB1FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6ABE8B51A50CE4300BDB1FC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6ABE8B61A50CE4300BDB1FC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6ABE8C41A50CE4300BDB1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6ABE8C51A50CE4300BDB1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6ABE8C71A50CE4300BDB1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClickatellSingleApiCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = ClickatellSingleApiCall;
+			};
+			name = Debug;
+		};
+		B6ABE8C81A50CE4300BDB1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClickatellSingleApiCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = ClickatellSingleApiCall;
+			};
+			name = Release;
+		};
+		B6ABE8CA1A50CE4300BDB1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClickatellSingleApiCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ClickatellSingleApiCallTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickatellSingleApiCall.app/ClickatellSingleApiCall";
+			};
+			name = Debug;
+		};
+		B6ABE8CB1A50CE4300BDB1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClickatellSingleApiCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ClickatellSingleApiCallTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickatellSingleApiCall.app/ClickatellSingleApiCall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6ABE8A21A50CE4300BDB1FC /* Build configuration list for PBXProject "ClickatellSingleApiCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ABE8C41A50CE4300BDB1FC /* Debug */,
+				B6ABE8C51A50CE4300BDB1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6ABE8C61A50CE4300BDB1FC /* Build configuration list for PBXNativeTarget "ClickatellSingleApiCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ABE8C71A50CE4300BDB1FC /* Debug */,
+				B6ABE8C81A50CE4300BDB1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6ABE8C91A50CE4300BDB1FC /* Build configuration list for PBXNativeTarget "ClickatellSingleApiCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ABE8CA1A50CE4300BDB1FC /* Debug */,
+				B6ABE8CB1A50CE4300BDB1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6ABE89F1A50CE4300BDB1FC /* Project object */;
+}
