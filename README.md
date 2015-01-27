@@ -1,5 +1,10 @@
 # API integration for iOS (Swift/Objective-C) 
 
+You can see our other libraries and more documentation at the [Clickatell APIs and Libraries Project](http://clickatell.github.io/).
+
+------------------------------------
+
+
 * [Introduction](#Introduction)
 * [Libraries](#Libraries)
 * [Usage](#usage)
